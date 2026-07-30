@@ -62,10 +62,10 @@ public class TelaLivros extends JFrame {
        }
  
     private void criarComponentes() {
-        JPanel painelFormulario = new JPanel(new GridLayout(3, 2, 10, 10));
+        JPanel painelFormulario = new JPanel(new GridLayout(7, 2, 10, 10));
         painelFormulario.setBorder(BorderFactory.createTitledBorder("Dados dos Livros"));
 
-        lblId = new JLabel("ID:");  
+        lblId = new JLabel("ID:"); 
         txtId = new JTextField();
         txtId.setEditable(false);
 
